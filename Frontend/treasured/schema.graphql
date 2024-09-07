@@ -1,0 +1,10 @@
+type Gamemember @entity(immutable: true) {
+  id: Bytes!
+  clubId: BigInt! # uint256
+  creator: Bytes! # address
+  priceFeed: BigInt! # uint256
+  predictedPrice: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}

@@ -1,0 +1,26 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Contract
+    network: scroll-sepolia
+    source:
+      address: "0xD48a9AD9c79c0811a058c9B6d8E3d34E9838110d"
+      abi: Contract
+      startBlock: 4132032
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Gamemember
+      abis:
+        - name: Contract
+          file: ./abis/Contract.json
+      eventHandlers:
+        - event: Gamemember(uint256,address,uint256,uint256)
+          handler: handleGamemember
+      file: ./src/contract.ts
