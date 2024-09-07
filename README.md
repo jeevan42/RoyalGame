@@ -38,11 +38,11 @@ Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 
 I Usedd Price Feed  in my project. User have to Guess a number b/w 50-100, then have to sum up with the pricefeed shown on their dashboard after that at the end of the smart contract will reveasl the winner.
 
-##  Please refer this code to see how I used Price feed in my project ->  https://github.com/Vikash-8090-Yadav/Royal/blob/main/Frontend/src/pages/createclub.jsx#L194
+##  Please refer this code to see how I used Price feed in my project ->  https://github.com/Vikash-8090-Yadav/RoyalGame/blob/main/Frontend/src/pages/createclub.jsx#L194
 
 ## State Chnage ->  if user won then he / she can claim full bonty prize (Only when won)
 
-https://github.com/Vikash-8090-Yadav/Royal/blob/main/Frontend/src/pages/proposal.jsx#L208
+https://github.com/Vikash-8090-Yadav/RoyalGame/blob/main/Frontend/src/pages/proposal.jsx#L208
 
 
 # Working flow 
