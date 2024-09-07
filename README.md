@@ -4,8 +4,6 @@
 
 
 
-# Demo Video: https://youtu.be/4VdIINWHOT8?si=I7_2KwNjRViRDmul
-
 #  Frontend deployed at: https://dao-automate.vercel.app/
 
 
@@ -16,7 +14,7 @@
 
 ## Contract Info -> The contract is deployed on Scroll sepolia
 
-Contract Address: 0x46cDAe0d7c2f9421f494F6b378A4165dE98F06C5
+Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 
 
 
